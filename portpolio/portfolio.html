@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>My portfolio</title>
+       <!--custom css file link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--nav menu-->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Logo</p>
+            </div>
+            <div class="nav-menu" id="mynavmenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link">Home</a>
+                    <div class="circle"></div>
+
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+
+                </li>
+            </ul>
+            </div>
+            <!--dark mode-->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class='bx bxs-sun'></i>
+                    <i class='bx bxs-moon'></i>
+                </div>
+
+            </div>
+            <div class="nav-menu-btn">
+                <i class='bx bx-menu' onclick="mymenufunction()" ></i>
+
+            </div>
+        </nav>
+        <!----main---->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I,m</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedtext">Developer</span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Nutan! I,m a frontend developer with 1 year experience</p>
+                    </div>
+                    <div class="text-btn">
+                         <button class="btn">Hire me</button>
+                         <button class="btn">Download CV</button>
+                    </div>
+                    <div class="socical-icons">
+                        <div class="icon-circle"></div>
+                        <div class="icon"><i class='bx bxl-instagram-alt' ></i></div>
+                        <div class="icon"><i class='bx bxl-linkedin-square' ></i></div>
+                        <div class="icon"><i class='bx bxl-facebook-square' ></i></div>
+                        <div class="icon"><i class='bx bxl-github' ></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="gils1.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-----about box----->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="walpapper.png" alt="" class="profile">
+                                    <h2>Web developer</h2>
+                                    <p>My name is Nutan! I,m a frontend developer with 1 year experience</p>
+                                </figcaption>
+
+                            </figure>
+                            <button class="about-me-btn">Hire me</button>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-box">
+                             <span class="title">HTML</span>
+                                <div class="skill-bar html">
+                                    <span class="skill-per">
+                                        <span class="tooltip">80%</span>
+                                        </span>
+                                </div>
+                                </div>
+                                <div class="skill-box">
+                                    <span class="title">CSS</span>
+                                       <div class="skill-bar css">
+                                           <span class="skill-per">
+                                               <span class="tooltip">80%</span>
+                                               </span>
+                                       </div>
+                                       </div>
+                                       <div class="skill-box">
+                                        <span class="title">Python</span>
+                                           <div class="skill-bar python">
+                                               <span class="skill-per">
+                                                   <span class="tooltip">70%</span>
+                                                   </span>
+                                           </div>
+                                           </div>
+                                           <div class="skill-box">
+                                            <span class="title">javascript</span>
+                                               <div class="skill-bar javascript">
+                                                   <span class="skill-per">
+                                                       <span class="tooltip">30%</span>
+                                                       </span>
+                                               </div>
+                                               </div>
+                                               <div class="skill-box">
+                                                <span class="title">graphicdesigning</span>
+                                                   <div class="skill-bar graphics">
+                                                       <span class="skill-per">
+                                                           <span class="tooltip">90%</span>
+                                                           </span>
+                                                   </div>
+                                                   </div>
+                                                   <div class="skill-box">
+                                                    <span class="title">react</span>
+                                                       <div class="skill-bar react">
+                                                           <span class="skill-per">
+                                                               <span class="tooltip">50%</span>
+                                                </span>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!------project box------->
+            <section class="section" id="Projects">
+                <div class="top-header">
+                    <h1>projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class='bx bxs-briefcase-alt' ></i>
+                        <h3>Completed</h3>
+                        <label>10+ finished projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class='bx bxs-user-pin' ></i>
+                        <h3>Clients</h3>
+                        <label>Now no clients</label>
+                    </div>
+                    <div class="project-box">
+                        <i class='bx bxs-award' ></i>
+                        <h3>Experience</h3>
+                        <label>Freshers</label>
+                    </div>
+                </div>
+
+            </section>
+            <!------Contact box------->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Do you have a project in your mind, contact me here.</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me <i class='bx bxs-right-down-arrow-circle' ></i></h2>
+                            <p><i class='bx bxs-envelope' >nutansinghrathour93@gmail.com</i></p>
+                            <p><i class='bx bxs-phone' >Phon:91+9098157744</i></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="your Name">
+                                <input type="text" class="input-field" placeholder="your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="subject">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">send<i class='bx bx-send'></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <!-------footeer--------->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#projects">projects</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#contac">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class='bx bxl-instagram-alt' ></i></div>
+                        <div class="icon"><i class='bx bxl-linkedin-square' ></i></div>
+                        <div class="icon"><i class='bx bxl-facebook-square' ></i></div>
+                        <div class="icon"><i class='bx bxl-github' ></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy;<a href="#home" style="text-decoration: none;">Nutansingh</a> - All rights reserved 2024</p>
+            </div>
+        </footer>
+    </div>
+ <!--custom javascript file link-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
